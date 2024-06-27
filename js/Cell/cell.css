@@ -1,0 +1,49 @@
+.cell {
+  position: relative;
+  width: var(--with-cell);
+  height: var(--with-cell);
+  border-right: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.cell_right-bold {
+  border-right: 3px solid var(--secondary-color);
+}
+
+.cell_top-bold {
+  border-top: 3px solid var(--secondary-color);
+}
+
+.cell_left-bold {
+  border-left: 3px solid var(--secondary-color);
+}
+
+.cell_checked {
+  background: #000;
+}
+
+.cell_bottom-bold {
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.diagonal:after {
+  content: '';
+  top: -1%;
+  height: 3px;
+  width: 138%;
+  background-color: red;
+  position: absolute;
+  transform: rotate(45deg);
+  transform-origin: 1px 1px;
+}
+
+.diagonal:before {
+  content: '';
+  height: 3px;
+  width: 137%;
+  background-color: red;
+  top: 98%;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: 1px 1px;
+}

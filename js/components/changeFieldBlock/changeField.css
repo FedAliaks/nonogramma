@@ -1,0 +1,27 @@
+.change-field__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal__change-game {
+  height: 60%;
+}
+
+.change-element {
+  padding: 11px;
+  cursor: pointer;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .change-field__container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 10px;
+  }
+}

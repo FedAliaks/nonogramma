@@ -1,0 +1,11 @@
+:root {
+  --with-cell: 30px;
+  --count-cell: 15;
+  --primary-color: #f2f2ef;
+  --secondary-color: #759242;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--secondary-color);
+}

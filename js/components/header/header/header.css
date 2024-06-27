@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  width: 60%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.header__button {
+  cursor: pointer;
+  padding: 7px 0;
+  border: 2px solid var(--secondary-color);
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+}
